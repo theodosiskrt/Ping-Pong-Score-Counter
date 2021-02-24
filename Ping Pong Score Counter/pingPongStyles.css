@@ -1,0 +1,112 @@
+body{
+    background-color: whitesmoke;
+}
+
+img{
+    margin-top:60px;
+    position:relative;
+    width : 300px;
+}
+
+.counter {
+    position : absolute;
+    border : rgb(0, 140, 255) solid 10px;
+    left:40%;
+    top:150px;
+    width:482.5px;
+    height : 499px;
+    text-align: center;
+    justify-content: center;
+}
+
+.scoreButton{
+    position : relative;
+    height : 45px;
+    padding:0px 37px;
+    bottom:-20px;
+    font-size: 15px;
+    outline:none;
+    border: none;
+}
+
+.counter button:nth-of-type(1){
+    background-color: rgb(75, 174, 255);
+}
+.counter button:nth-of-type(1):hover{
+    background-color: rgb(1, 118, 214);
+}
+
+.counter button:nth-of-type(2){
+    background-color: rgb(228, 224, 11);
+}
+
+.counter button:nth-of-type(2):hover{
+    background-color: rgb(189, 183, 8);
+}
+
+.counter button:nth-of-type(3){
+    background-color: red;
+}
+
+.counter button:nth-of-type(3):hover{
+    background-color: rgb(145, 0, 0);
+}
+
+#p1{
+    color: rgb(75, 174, 255);
+}
+
+#p2{
+    color: rgb(196, 192, 7);
+}
+
+p{
+    position:relative;
+    left:-90px;
+    font-size : 50px;
+    margin-top : 0px;
+}
+
+label{
+    display:block; 
+    font-size: 25px;
+}
+form{
+    position:relative;
+    display : inline-block;
+    width : 600px;
+}
+input{
+    height : 30px;
+    width: 200px;
+    padding : 0;
+}
+
+#p1Setting, #p2Setting {
+    width : 33px;
+    height:33px;
+    padding : 5px;
+}
+
+#p2Setting {
+    height : 34px;
+}
+
+select{
+    width:130px;
+    height:22px;
+     margin-top:20px; 
+}
+
+#winningScoreBtn{
+    margin-top : 3px;
+    padding-bottom: 18px;
+    height:22px;
+}
+h3{
+    color:green;
+    top: 700px;
+    left : 43.5%;
+    position:absolute;
+    font-size:50px;
+}

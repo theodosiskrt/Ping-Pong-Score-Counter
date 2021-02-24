@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="pingPongStyles.css">
+    </head>
+    <body>
+        <h1>Welcome to the Ping Pong Counter!!</h1>
+        <h2>Game Settings</h2>
+        <form action="">
+            <label for="p1Color">Player 1 color</label>
+            <input type="text" name="p1Color" id = "p1Color"> 
+            <button id ="p1Setting">&#10004</button>
+            <br>
+            <br>
+            <label for="p2Color">Player 2 color</label>
+            <input type="text" name="p2Color" id = "p2Color"> 
+            <button id ="p2Setting">&#10004</button>
+            <br>
+            <select name="winningScore" id="winningScoreSelect">
+                <option value="">--Winning points--</option>
+            </select>
+            <button id = 'winningScoreBtn'>&#10004</button>
+        </form>
+        <div class="counter">
+            <img src="pingPong.png" alt="">
+            <br>
+            <p><span id="p1">0</span> vs <span id="p2">0</span></p>
+            <br>
+            <button class = 'scoreButton' id ='p1Btn'>Player 1 scored!</button><button class = 'scoreButton' id = 'p2Btn'>Player 2 scored!</button><button class = 'scoreButton' id = 'resetBtn'>Reset!</button>
+        </div>
+        <script src = 'pingPongScripts.js'></script>
+    </body>
+</html>
